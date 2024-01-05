@@ -1,5 +1,11 @@
 # @7i7o/changesets-pnpm-example
 
+## 1.0.2
+
+### Patch Changes
+
+- 548aec1: add readme
+
 ## 1.0.1
 
 ### Patch Changes
