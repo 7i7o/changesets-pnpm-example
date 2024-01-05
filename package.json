@@ -1,6 +1,6 @@
 {
     "name": "@7i7o/changesets-pnpm-example",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Example repo to show how can changesets be used to publish npm packages",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -20,7 +20,8 @@
     "license": "MIT",
     "publishConfig": {
         "access": "public"
-    },    "devDependencies": {
+    },
+    "devDependencies": {
         "@changesets/cli": "^2.27.1",
         "tsup": "^8.0.1",
         "typescript": "^5.3.3"
