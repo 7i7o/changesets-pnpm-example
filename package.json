@@ -1,0 +1,24 @@
+{
+    "name": "@7i7o/changesets-pnpm-example",
+    "version": "1.0.0",
+    "description": "Example repo to show how can changesets be used to publish npm packages",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "lint": "tsc",
+        "build": "tsup src/index.ts --format cjs,esm --dts"
+    },
+    "keywords": [
+        "typescript",
+        "pnpm",
+        "tsup",
+        "changesets"
+    ],
+    "author": "7i7o",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3"
+    }
+}
