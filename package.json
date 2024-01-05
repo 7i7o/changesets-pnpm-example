@@ -1,6 +1,6 @@
 {
     "name": "@7i7o/changesets-pnpm-example",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Example repo to show how can changesets be used to publish npm packages",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
