@@ -1,5 +1,12 @@
 # @7i7o/changesets-pnpm-example
 
+## 1.0.3
+
+### Patch Changes
+
+- a01f16e: add files to package.json to select what goes in the package
+- a01f16e: add homepage and repo info to package.json
+
 ## 1.0.2
 
 ### Patch Changes
