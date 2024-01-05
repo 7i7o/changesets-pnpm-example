@@ -7,7 +7,8 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "lint": "tsc",
-        "build": "tsup src/index.ts --format cjs,esm --dts"
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "release": "pnpm run build && changeset publish"
     },
     "keywords": [
         "typescript",
@@ -18,6 +19,7 @@
     "author": "7i7o",
     "license": "MIT",
     "devDependencies": {
+        "@changesets/cli": "^2.27.1",
         "tsup": "^8.0.1",
         "typescript": "^5.3.3"
     }
