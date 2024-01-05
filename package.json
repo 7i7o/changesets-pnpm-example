@@ -21,6 +21,21 @@
     "publishConfig": {
         "access": "public"
     },
+    "files": [
+        "dist/",
+        "src/",
+        ".github/",
+        ".gitignore",
+        "package.json",
+        "tsconfig.json",
+        "README.md",
+        "CHANGELOG.md"
+    ],
+    "homepage": "https://github.com/7i7o/changesets-pnpm-example#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/7i7o/changesets-pnpm-example.git"
+    },
     "devDependencies": {
         "@changesets/cli": "^2.27.1",
         "tsup": "^8.0.1",
